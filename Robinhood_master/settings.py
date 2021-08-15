@@ -26,7 +26,6 @@ SECRET_KEY = 'f@6p7qogsvy-s8-vdj2$ut87h^f*lyu%053=&$l(n7$$=b-mh$'
 DEBUG = True
 
 ALLOWED_HOSTS = ['.herokuapp.com', 'localhost', '127.0.0.1']
-ALLOWED_HOSTS = ['.missshiqi.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
