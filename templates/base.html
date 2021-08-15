@@ -1,6 +1,28 @@
-<header>
-    <a href="{% url 'home' %}"> Home</a> | <a href="{% url 'about' %}"> About</a>
-</header>
+{% load static %}
 
-{% block content%}
-{% endblock content%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" >
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>思念站</title>
+
+</head>
+<body>
+    <div class="greeting">
+        <h1> Welcome Shiqi, </h1>
+        <h1> This secret gift is still under development! </h1>
+        <h1> Working very hard, and see you on your birthday :) </h1>
+        <h2 class="sign"> --- y.</h2>
+    </div>
+
+    
+    {% block content%}
+    {% endblock content%}
+</body>
+</html>
+
+
