@@ -1,0 +1,40 @@
+h1 {
+    /* color: #d3979f; */
+    color: #937472;
+    
+}
+
+h2 {
+    color: #937472;
+}
+
+.greeting{
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+}
+
+.sign {
+    position: absolute;
+    top: 90%;
+    left: 70%;
+    /* width: 100%; */
+    text-align: center;
+}
+
+h2.sign{
+    font-weight: bold;
+}
+
+body{  
+    /* background-color: linear-gradient( #708194 50% , #708124 100%  ); */
+    /* background-color: linear-gradient(red 0%, orange 25%, yellow 50%, green 75%, blue 100%); */
+    background: linear-gradient(to right, #a4aab4 0% 50%, #c1c19c 50% 100%);
+
+
+
+    /* background: linear-gradient(to left, black 0%,black 50%,#000000 50%,white 50%,white 100%); W3C */
+
+}
+
